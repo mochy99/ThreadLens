@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "piazza-0001",
+    "course": "CPSC 330",
+    "title": "Cross-validation score differs from test accuracy",
+    "content": "Why is my validation accuracy higher than my test accuracy?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-15T18:00:00Z",
+    "answers": [],
+    "followups": [],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about cross-validation score differs from test accuracy.",
+      "category": "Machine Learning",
+      "severity": "medium",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0002",
+    "course": "CPSC 313",
+    "title": "Y86 forwarding from Execute stage",
+    "content": "When should forwardA select e_valE rather than the register value?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-16T03:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-16T06:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about y86 forwarding from execute stage.",
+      "category": "Computer Architecture",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0003",
+    "course": "CPSC 221",
+    "title": "AVL rotation after insertion",
+    "content": "How do I identify whether a left-right rotation is required?",
+    "tags": [
+      "data-structures",
+      "conceptual"
+    ],
+    "created_at": "2026-09-16T12:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-16T15:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-16T17:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about avl rotation after insertion.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0004",
+    "course": "CPSC 320",
+    "title": "Master theorem recurrence",
+    "content": "How do we solve T(n)=2T(n/2)+n log n?",
+    "tags": [
+      "algorithms",
+      "assignment"
+    ],
+    "created_at": "2026-09-16T21:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-17T00:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about master theorem recurrence.",
+      "category": "Algorithms",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0005",
+    "course": "CPSC 330",
+    "title": "One-hot encoding unknown categories",
+    "content": "How can I handle categories that appear only in the test set?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-17T06:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-17T09:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about one-hot encoding unknown categories.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0006",
+    "course": "CPSC 313",
+    "title": "Return instruction pipeline stalls",
+    "content": "Why does ret create a control hazard in a pipelined CPU?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-17T15:00:00Z",
+    "answers": [],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-17T20:00:00Z"
+      }
+    ],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about return instruction pipeline stalls.",
+      "category": "Computer Architecture",
+      "severity": "high",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0007",
+    "course": "CPSC 320",
+    "title": "Stable matching rejection proof",
+    "content": "Can a rejected proposer ever be matched with the same person in Gale-Shapley?",
+    "tags": [
+      "algorithms",
+      "conceptual"
+    ],
+    "created_at": "2026-09-18T00:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-18T03:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about stable matching rejection proof.",
+      "category": "Algorithms",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0008",
+    "course": "CPSC 221",
+    "title": "Hash table collision strategy",
+    "content": "When is chaining better than open addressing?",
+    "tags": [
+      "data-structures",
+      "assignment"
+    ],
+    "created_at": "2026-09-18T09:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-18T12:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about hash table collision strategy.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0009",
+    "course": "CPSC 330",
+    "title": "Grid search running slowly",
+    "content": "My hyperparameter search takes 30 minutes. How can I make it faster?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-18T18:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-18T21:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-18T23:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about grid search running slowly.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0010",
+    "course": "CPSC 313",
+    "title": "Memory stage load-use hazard",
+    "content": "Why is forwarding insufficient for a load-use dependency?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-19T03:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-19T06:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about memory stage load-use hazard.",
+      "category": "Computer Architecture",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0011",
+    "course": "CPSC 330",
+    "title": "Cross-validation score differs from test accuracy",
+    "content": "Why is my validation accuracy higher than my test accuracy?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-19T12:00:00Z",
+    "answers": [],
+    "followups": [],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about cross-validation score differs from test accuracy.",
+      "category": "Machine Learning",
+      "severity": "medium",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0012",
+    "course": "CPSC 313",
+    "title": "Y86 forwarding from Execute stage",
+    "content": "When should forwardA select e_valE rather than the register value?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-19T21:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-20T00:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-20T02:00:00Z"
+      }
+    ],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about y86 forwarding from execute stage.",
+      "category": "Computer Architecture",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0013",
+    "course": "CPSC 221",
+    "title": "AVL rotation after insertion",
+    "content": "How do I identify whether a left-right rotation is required?",
+    "tags": [
+      "data-structures",
+      "conceptual"
+    ],
+    "created_at": "2026-09-20T06:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-20T09:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about avl rotation after insertion.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0014",
+    "course": "CPSC 320",
+    "title": "Master theorem recurrence",
+    "content": "How do we solve T(n)=2T(n/2)+n log n?",
+    "tags": [
+      "algorithms",
+      "assignment"
+    ],
+    "created_at": "2026-09-20T15:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-20T18:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about master theorem recurrence.",
+      "category": "Algorithms",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0015",
+    "course": "CPSC 330",
+    "title": "One-hot encoding unknown categories",
+    "content": "How can I handle categories that appear only in the test set?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-21T00:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-21T03:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-21T05:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about one-hot encoding unknown categories.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0016",
+    "course": "CPSC 313",
+    "title": "Return instruction pipeline stalls",
+    "content": "Why does ret create a control hazard in a pipelined CPU?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-21T09:00:00Z",
+    "answers": [],
+    "followups": [],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about return instruction pipeline stalls.",
+      "category": "Computer Architecture",
+      "severity": "high",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0017",
+    "course": "CPSC 320",
+    "title": "Stable matching rejection proof",
+    "content": "Can a rejected proposer ever be matched with the same person in Gale-Shapley?",
+    "tags": [
+      "algorithms",
+      "conceptual"
+    ],
+    "created_at": "2026-09-21T18:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-21T21:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about stable matching rejection proof.",
+      "category": "Algorithms",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0018",
+    "course": "CPSC 221",
+    "title": "Hash table collision strategy",
+    "content": "When is chaining better than open addressing?",
+    "tags": [
+      "data-structures",
+      "assignment"
+    ],
+    "created_at": "2026-09-22T03:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-22T06:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-22T08:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about hash table collision strategy.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0019",
+    "course": "CPSC 330",
+    "title": "Grid search running slowly",
+    "content": "My hyperparameter search takes 30 minutes. How can I make it faster?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-22T12:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-22T15:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about grid search running slowly.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0020",
+    "course": "CPSC 313",
+    "title": "Memory stage load-use hazard",
+    "content": "Why is forwarding insufficient for a load-use dependency?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-22T21:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-23T00:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about memory stage load-use hazard.",
+      "category": "Computer Architecture",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0021",
+    "course": "CPSC 330",
+    "title": "Cross-validation score differs from test accuracy",
+    "content": "Why is my validation accuracy higher than my test accuracy?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-23T06:00:00Z",
+    "answers": [],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-23T11:00:00Z"
+      }
+    ],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about cross-validation score differs from test accuracy.",
+      "category": "Machine Learning",
+      "severity": "medium",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0022",
+    "course": "CPSC 313",
+    "title": "Y86 forwarding from Execute stage",
+    "content": "When should forwardA select e_valE rather than the register value?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-23T15:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-23T18:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about y86 forwarding from execute stage.",
+      "category": "Computer Architecture",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0023",
+    "course": "CPSC 221",
+    "title": "AVL rotation after insertion",
+    "content": "How do I identify whether a left-right rotation is required?",
+    "tags": [
+      "data-structures",
+      "conceptual"
+    ],
+    "created_at": "2026-09-24T00:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-24T03:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about avl rotation after insertion.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0024",
+    "course": "CPSC 320",
+    "title": "Master theorem recurrence",
+    "content": "How do we solve T(n)=2T(n/2)+n log n?",
+    "tags": [
+      "algorithms",
+      "assignment"
+    ],
+    "created_at": "2026-09-24T09:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-24T12:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-24T14:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about master theorem recurrence.",
+      "category": "Algorithms",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0025",
+    "course": "CPSC 330",
+    "title": "One-hot encoding unknown categories",
+    "content": "How can I handle categories that appear only in the test set?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-24T18:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-24T21:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about one-hot encoding unknown categories.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0026",
+    "course": "CPSC 313",
+    "title": "Return instruction pipeline stalls",
+    "content": "Why does ret create a control hazard in a pipelined CPU?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-25T03:00:00Z",
+    "answers": [],
+    "followups": [],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about return instruction pipeline stalls.",
+      "category": "Computer Architecture",
+      "severity": "high",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0027",
+    "course": "CPSC 320",
+    "title": "Stable matching rejection proof",
+    "content": "Can a rejected proposer ever be matched with the same person in Gale-Shapley?",
+    "tags": [
+      "algorithms",
+      "conceptual"
+    ],
+    "created_at": "2026-09-25T12:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-25T15:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-25T17:00:00Z"
+      }
+    ],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about stable matching rejection proof.",
+      "category": "Algorithms",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0028",
+    "course": "CPSC 221",
+    "title": "Hash table collision strategy",
+    "content": "When is chaining better than open addressing?",
+    "tags": [
+      "data-structures",
+      "assignment"
+    ],
+    "created_at": "2026-09-25T21:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-26T00:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about hash table collision strategy.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0029",
+    "course": "CPSC 330",
+    "title": "Grid search running slowly",
+    "content": "My hyperparameter search takes 30 minutes. How can I make it faster?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-26T06:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-26T09:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about grid search running slowly.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0030",
+    "course": "CPSC 313",
+    "title": "Memory stage load-use hazard",
+    "content": "Why is forwarding insufficient for a load-use dependency?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-26T15:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-26T18:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-26T20:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about memory stage load-use hazard.",
+      "category": "Computer Architecture",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0031",
+    "course": "CPSC 330",
+    "title": "Cross-validation score differs from test accuracy",
+    "content": "Why is my validation accuracy higher than my test accuracy?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-27T00:00:00Z",
+    "answers": [],
+    "followups": [],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about cross-validation score differs from test accuracy.",
+      "category": "Machine Learning",
+      "severity": "medium",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0032",
+    "course": "CPSC 313",
+    "title": "Y86 forwarding from Execute stage",
+    "content": "When should forwardA select e_valE rather than the register value?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-27T09:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-27T12:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about y86 forwarding from execute stage.",
+      "category": "Computer Architecture",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0033",
+    "course": "CPSC 221",
+    "title": "AVL rotation after insertion",
+    "content": "How do I identify whether a left-right rotation is required?",
+    "tags": [
+      "data-structures",
+      "conceptual"
+    ],
+    "created_at": "2026-09-27T18:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-27T21:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-27T23:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about avl rotation after insertion.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0034",
+    "course": "CPSC 320",
+    "title": "Master theorem recurrence",
+    "content": "How do we solve T(n)=2T(n/2)+n log n?",
+    "tags": [
+      "algorithms",
+      "assignment"
+    ],
+    "created_at": "2026-09-28T03:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-28T06:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about master theorem recurrence.",
+      "category": "Algorithms",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0035",
+    "course": "CPSC 330",
+    "title": "One-hot encoding unknown categories",
+    "content": "How can I handle categories that appear only in the test set?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-28T12:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-28T15:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about one-hot encoding unknown categories.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0036",
+    "course": "CPSC 313",
+    "title": "Return instruction pipeline stalls",
+    "content": "Why does ret create a control hazard in a pipelined CPU?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-28T21:00:00Z",
+    "answers": [],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-29T02:00:00Z"
+      }
+    ],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about return instruction pipeline stalls.",
+      "category": "Computer Architecture",
+      "severity": "high",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0037",
+    "course": "CPSC 320",
+    "title": "Stable matching rejection proof",
+    "content": "Can a rejected proposer ever be matched with the same person in Gale-Shapley?",
+    "tags": [
+      "algorithms",
+      "conceptual"
+    ],
+    "created_at": "2026-09-29T06:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-29T09:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about stable matching rejection proof.",
+      "category": "Algorithms",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0038",
+    "course": "CPSC 221",
+    "title": "Hash table collision strategy",
+    "content": "When is chaining better than open addressing?",
+    "tags": [
+      "data-structures",
+      "assignment"
+    ],
+    "created_at": "2026-09-29T15:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-29T18:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about hash table collision strategy.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0039",
+    "course": "CPSC 330",
+    "title": "Grid search running slowly",
+    "content": "My hyperparameter search takes 30 minutes. How can I make it faster?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-30T00:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-30T03:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-09-30T05:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about grid search running slowly.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0040",
+    "course": "CPSC 313",
+    "title": "Memory stage load-use hazard",
+    "content": "Why is forwarding insufficient for a load-use dependency?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-09-30T09:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-09-30T12:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about memory stage load-use hazard.",
+      "category": "Computer Architecture",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0041",
+    "course": "CPSC 330",
+    "title": "Cross-validation score differs from test accuracy",
+    "content": "Why is my validation accuracy higher than my test accuracy?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-09-30T18:00:00Z",
+    "answers": [],
+    "followups": [],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about cross-validation score differs from test accuracy.",
+      "category": "Machine Learning",
+      "severity": "medium",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0042",
+    "course": "CPSC 313",
+    "title": "Y86 forwarding from Execute stage",
+    "content": "When should forwardA select e_valE rather than the register value?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-10-01T03:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-10-01T06:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-10-01T08:00:00Z"
+      }
+    ],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about y86 forwarding from execute stage.",
+      "category": "Computer Architecture",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0043",
+    "course": "CPSC 221",
+    "title": "AVL rotation after insertion",
+    "content": "How do I identify whether a left-right rotation is required?",
+    "tags": [
+      "data-structures",
+      "conceptual"
+    ],
+    "created_at": "2026-10-01T12:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-10-01T15:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about avl rotation after insertion.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0044",
+    "course": "CPSC 320",
+    "title": "Master theorem recurrence",
+    "content": "How do we solve T(n)=2T(n/2)+n log n?",
+    "tags": [
+      "algorithms",
+      "assignment"
+    ],
+    "created_at": "2026-10-01T21:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-10-02T00:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about master theorem recurrence.",
+      "category": "Algorithms",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0045",
+    "course": "CPSC 330",
+    "title": "One-hot encoding unknown categories",
+    "content": "How can I handle categories that appear only in the test set?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-10-02T06:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-10-02T09:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-10-02T11:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about one-hot encoding unknown categories.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0046",
+    "course": "CPSC 313",
+    "title": "Return instruction pipeline stalls",
+    "content": "Why does ret create a control hazard in a pipelined CPU?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-10-02T15:00:00Z",
+    "answers": [],
+    "followups": [],
+    "is_resolved": false,
+    "status": "unresolved",
+    "ai_analysis": {
+      "summary": "Question about return instruction pipeline stalls.",
+      "category": "Computer Architecture",
+      "severity": "high",
+      "suggested_action": "Instructor review needed"
+    }
+  },
+  {
+    "id": "piazza-0047",
+    "course": "CPSC 320",
+    "title": "Stable matching rejection proof",
+    "content": "Can a rejected proposer ever be matched with the same person in Gale-Shapley?",
+    "tags": [
+      "algorithms",
+      "conceptual"
+    ],
+    "created_at": "2026-10-03T00:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-10-03T03:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": false,
+    "status": "in_progress",
+    "ai_analysis": {
+      "summary": "Question about stable matching rejection proof.",
+      "category": "Algorithms",
+      "severity": "medium",
+      "suggested_action": "Monitor follow-up"
+    }
+  },
+  {
+    "id": "piazza-0048",
+    "course": "CPSC 221",
+    "title": "Hash table collision strategy",
+    "content": "When is chaining better than open addressing?",
+    "tags": [
+      "data-structures",
+      "assignment"
+    ],
+    "created_at": "2026-10-03T09:00:00Z",
+    "answers": [
+      {
+        "author_role": "instructor",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-10-03T12:00:00Z"
+      }
+    ],
+    "followups": [
+      {
+        "author_role": "student",
+        "content": "Thanks! Could you clarify how this applies to the assignment?",
+        "created_at": "2026-10-03T14:00:00Z"
+      }
+    ],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about hash table collision strategy.",
+      "category": "Data Structures",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0049",
+    "course": "CPSC 330",
+    "title": "Grid search running slowly",
+    "content": "My hyperparameter search takes 30 minutes. How can I make it faster?",
+    "tags": [
+      "machine-learning",
+      "conceptual"
+    ],
+    "created_at": "2026-10-03T18:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-10-03T21:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about grid search running slowly.",
+      "category": "Machine Learning",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  },
+  {
+    "id": "piazza-0050",
+    "course": "CPSC 313",
+    "title": "Memory stage load-use hazard",
+    "content": "Why is forwarding insufficient for a load-use dependency?",
+    "tags": [
+      "computer-architecture",
+      "assignment"
+    ],
+    "created_at": "2026-10-04T03:00:00Z",
+    "answers": [
+      {
+        "author_role": "student",
+        "content": "Check the relevant lecture example and verify each intermediate step. The key is to distinguish the concept from its implementation.",
+        "created_at": "2026-10-04T06:00:00Z"
+      }
+    ],
+    "followups": [],
+    "is_resolved": true,
+    "status": "resolved",
+    "ai_analysis": {
+      "summary": "Question about memory stage load-use hazard.",
+      "category": "Computer Architecture",
+      "severity": "low",
+      "suggested_action": "No action required"
+    }
+  }
+]
