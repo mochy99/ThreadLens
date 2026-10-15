@@ -24,10 +24,8 @@ The project uses a React and TypeScript frontend, a FastAPI backend, and a local
 | Frontend | React, TypeScript, Vite |
 | Styling | CSS |
 | Charts | Recharts |
-| Icons | Lucide React |
 | Backend | Python 3.11, FastAPI, Uvicorn |
 | LLM | Llama 3.2, Ollama |
-| Semantic Search | Sentence Transformers, NumPy |
 | Data Storage | Local JSON dataset |
 
 ## Project Architecture
