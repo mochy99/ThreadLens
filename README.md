@@ -1,331 +1,241 @@
-ana
 # ThreadLens
 
-### AI-Powered Discussion Analytics Platform
+**AI-Powered Educational Discussion Analytics Platform**
 
-ThreadLens is a full-stack AI-powered application that transforms unstructured educational discussions into structured, actionable insights.
+ThreadLens is a full-stack application that transforms educational discussion posts into structured insights. It helps instructors understand student questions, monitor unresolved discussions, identify recurring topics, and generate AI-powered course summaries.
 
-Inspired by support analytics platforms, ThreadLens analyzes Piazza-style discussions to identify recurring questions, summarize conversations, classify topics, and track unresolved issues.
+The project uses a React and TypeScript frontend, a FastAPI backend, and a locally hosted Llama 3.2 model through Ollama.
 
-> **Status:** 🚧 In Development
+## Features
 
-## 🎯 Problem
+- **Discussion Dashboard:** Visualize total discussions, resolution status, and common topics.
+- **Issue Analyzer:** Generate AI-powered summaries, topic classifications, urgency levels, and keywords for individual discussions.
+- **Course Summarizer:** Aggregate discussion statistics and generate course-level insights and suggested instructor actions.
+- **Discussion Explorer:** Browse educational discussions and inspect their analysis.
+- **REST API:** Access discussion data, analytics, and AI analysis through FastAPI.
+- **Local AI Processing:** Run Llama 3.2 locally using Ollama without requiring a paid LLM API.
 
-University courses generate hundreds of discussion threads on platforms such as Piazza. These discussions contain valuable information about student difficulties, common misconceptions, and recurring technical problems.
+**Additional prototype functionality:** Semantic similarity detection for identifying related discussions. This backend feature is experimental and is not yet integrated into the dashboard.
 
-However, manually reviewing these conversations is time-consuming and inefficient.
+## Tech Stack
 
-Common challenges include:
+| Layer | Technologies |
+|---|---|
+| Frontend | React, TypeScript, Vite |
+| Styling | CSS |
+| Charts | Recharts |
+| Icons | Lucide React |
+| Backend | Python 3.11, FastAPI, Uvicorn |
+| LLM | Llama 3.2, Ollama |
+| Semantic Search | Sentence Transformers, NumPy |
+| Data Storage | Local JSON dataset |
 
-- Important questions getting buried in lengthy discussions.
-- Students repeatedly asking similar questions.
-- Instructors struggling to identify frequently misunderstood concepts.
-- Limited visibility into unresolved questions.
-- Difficulty tracking discussion trends over time.
-
-## 💡 Solution
-
-ThreadLens uses AI and natural language processing (NLP) to automatically analyze course discussions and present meaningful insights through an interactive dashboard.
-
-The platform aims to help students, teaching assistants, and instructors understand discussion activity without manually reviewing every thread.
-
-## ✨ Planned Features
-
-### 1. AI-Powered Discussion Analysis
-
-- Automatically summarize lengthy discussion threads.
-- Classify questions into relevant topic categories.
-- Identify resolved and unresolved questions.
-- Estimate question urgency based on context.
-- Extract key insights from student and instructor responses.
-
-### 2. Interactive Dashboard
-
-- Display total, resolved, and unresolved discussions.
-- Visualize discussion activity over time.
-- Identify frequently discussed topics.
-- Filter discussions by category, status, and urgency.
-- Search discussions using keywords.
-
-### 3. Semantic Similarity Detection
-
-- Detect semantically similar questions.
-- Group related discussions using text embeddings.
-- Identify recurring student misconceptions.
-- Reduce duplicate question analysis.
-
-### 4. Automated Reports
-
-- Generate weekly discussion summaries.
-- Highlight frequently asked questions.
-- Identify unresolved or recurring issues.
-- Export structured analytics reports.
-
-## 🛠️ Tech Stack
-
-| Component | Technology |
-|-----------|------------|
-| Frontend | React, TypeScript, Tailwind CSS |
-| Backend | Python, FastAPI |
-| Database | PostgreSQL |
-| AI/NLP | LLM API, Sentence Transformers |
-| Data Processing | Pandas |
-| Visualization | Recharts |
-| Testing | Pytest, React Testing Library |
-| Version Control | Git, GitHub |
-
-> The technologies listed above represent the planned stack and may change during development.
-
-## 🏗️ System Architecture
+## Project Architecture
 
 ```text
-            Piazza-Style Discussion Data
-                    (JSON / CSV)
-                          |
-                          v
-                 FastAPI Backend
-                          |
-                          v
-                  Data Processing
-                          |
-                          v
-                  AI/NLP Pipeline
-                    /     |     \
-                   v      v      v
-              Summarize Classify Detect
-                                 Issues
-                    \     |     /
-                          v
-                 PostgreSQL Database
-                          |
-                          v
-                       REST API
-                          |
-                          v
-                   React Frontend
-                          |
-                          v
-                 Analytics Dashboard
-```
-
-## 📁 Project Structure
-
-The planned repository structure is:
-
-```text
-threadlens/
+ThreadLens/
 ├── backend/
 │   ├── app/
-│   │   ├── main.py
 │   │   ├── api/
 │   │   │   ├── posts.py
-│   │   │   └── analytics.py
-│   │   ├── models/
+│   │   │   ├── analytics.py
+│   │   │   ├── analyze.py
+│   │   │   ├── similarity.py
+│   │   │   └── summarizer.py
 │   │   ├── services/
 │   │   │   ├── analyzer.py
-│   │   │   ├── classifier.py
+│   │   │   ├── llm_analyzer.py
+│   │   │   ├── similarity.py
 │   │   │   └── summarizer.py
-│   │   └── database.py
-│   ├── tests/
+│   │   └── main.py
 │   └── requirements.txt
-│
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   ├── pages/
+│   │   │   ├── IssueAnalyzer.tsx
+│   │   │   └── Summarizer.tsx
 │   │   ├── services/
+│   │   │   └── api.ts
 │   │   └── App.tsx
 │   └── package.json
-│
 ├── data/
-│   ├── piazza_posts.json
-│   └── piazza_posts.csv
-│
-├── README.md
-├── .gitignore
-└── .env.example
+│   └── piazza_posts.json
+└── README.md
 ```
 
-## 📊 Dataset
-
-ThreadLens initially uses synthetic Piazza-style discussion data for development and testing.
-
-Each discussion includes:
-
-| Field | Description |
-|-------|-------------|
-| `id` | Unique discussion identifier |
-| `course` | Course identifier |
-| `title` | Discussion title |
-| `content` | Original question |
-| `tags` | Topic labels |
-| `created_at` | Creation timestamp |
-| `answers` | Student or instructor responses |
-| `followups` | Additional discussion messages |
-| `is_resolved` | Resolution indicator |
-| `status` | Discussion status |
-| `ai_analysis` | Example AI analysis output |
-
-The initial dataset contains 50 synthetic discussions representing common computer science course questions.
-
-No real student information is required.
-
-## 🚀 Getting Started
-
-> Setup instructions describe the planned development environment. They will be verified as implementation progresses.
+## Getting Started
 
 ### Prerequisites
 
-- Python 3.11+
-- Node.js 20+
-- PostgreSQL
+Install the following:
+
+- Python 3.11
+- Node.js and npm
+- Ollama
 - Git
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/threadlens.git
-cd threadlens
+git clone https://github.com/YOUR_USERNAME/ThreadLens.git
+cd ThreadLens
 ```
 
-### 2. Backend Setup
+Replace `YOUR_USERNAME` with your GitHub username.
+
+### 2. Set Up the Backend
+
+Create a Python virtual environment:
+
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+```
+
+Install backend dependencies:
 
 ```bash
 cd backend
-
-python -m venv venv
-
-# macOS / Linux
-source venv/bin/activate
-
-# Windows
-# venv\Scripts\activate
-
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-Start the backend server:
+If you have not yet finalized `requirements.txt`, ensure it includes the dependencies used by your backend, including FastAPI, Uvicorn, Ollama, Sentence Transformers, and NumPy.
+
+### 3. Set Up Ollama
+
+Install Ollama from https://ollama.com.
+
+Download the model:
 
 ```bash
-uvicorn app.main:app --reload
+ollama pull llama3.2:3b
 ```
 
-Backend URL:
+Start the Ollama server if it is not already running:
 
-http://localhost:8000
+```bash
+ollama serve
+```
+
+Ollama runs at:
+
+```text
+http://127.0.0.1:11434
+```
+
+### 4. Start the Backend
+
+Open a terminal in the `backend` directory with your Python virtual environment activated:
+
+```bash
+python -m uvicorn app.main:app --reload
+```
+
+The backend will run at:
+
+```text
+http://127.0.0.1:8000
+```
 
 Interactive API documentation:
 
-http://localhost:8000/docs
+http://127.0.0.1:8000/docs
 
-### 3. Frontend Setup
+### 5. Set Up the Frontend
 
 Open a new terminal:
 
 ```bash
-cd frontend
-
+cd ThreadLens/frontend
 npm install
 npm run dev
 ```
 
-The development server will display the local frontend URL.
+If you are already in the project root, use `cd frontend` instead.
 
-## 🔌 Planned API Endpoints
+Open the local URL displayed by Vite, typically:
+
+http://localhost:5173
+
+## How to Use
+
+### Discussion Dashboard
+
+The dashboard displays discussion statistics, resolution rates, topic distributions, and recent discussions.
+
+Select a discussion to open the Issue Analyzer.
+
+### AI Issue Analyzer
+
+The Issue Analyzer processes a discussion using Llama 3.2 and returns:
+
+- Summary
+- Topic
+- Urgency
+- Keywords
+- Explanation
+- Resolution status from discussion metadata
+
+If the LLM is unavailable, the backend can fall back to keyword-based analysis.
+
+### Course Summarizer
+
+Navigate to **Summarizer** in the sidebar.
+
+1. Select a course.
+2. Click **Generate Summary**.
+3. Wait for the local LLM to analyze the selected discussions.
+4. Review the course statistics, common topics, student challenges, and recommended instructor actions.
+
+The initial implementation analyzes up to 20 discussions per report, while overall discussion counts are calculated from the full selected course dataset.
+
+## API Endpoints
 
 | Method | Endpoint | Description |
-|--------|----------|-------------|
+|---|---|---|
 | GET | `/api/posts` | Retrieve discussions |
-| GET | `/api/posts/{id}` | Retrieve a discussion |
-| GET | `/api/analytics` | Retrieve discussion statistics |
-| GET | `/api/topics` | Retrieve topic distributions |
-| POST | `/api/analyze` | Analyze discussion content |
-| GET | `/api/reports` | Retrieve generated reports |
+| GET | `/api/posts/{post_id}` | Retrieve a discussion |
+| GET | `/api/analytics` | Retrieve dashboard statistics |
+| GET | `/api/analytics/topics` | Retrieve topic counts |
+| GET | `/api/analyze/{post_id}` | Analyze a discussion |
+| GET | `/api/similarity/{post_id}` | Find semantically related discussions |
+| GET | `/api/summarizer/courses` | List available courses |
+| GET | `/api/summarizer/{course}` | Generate a course summary |
 
-These endpoints are planned and are not yet guaranteed to be implemented.
+Additional analytics endpoints are documented in FastAPI's interactive API documentation.
 
-## 🧠 AI Analysis Pipeline
+## Data and Privacy
 
-The planned AI pipeline consists of five stages.
+ThreadLens currently uses a synthetic Piazza-style discussion dataset stored in `data/piazza_posts.json`.
 
-**1. Data Ingestion**
+The project does not require access to private Piazza accounts or student discussions.
 
-Load structured discussion data from JSON or CSV files.
+LLM inference is performed locally through Ollama.
 
-**2. Text Preprocessing**
+## Current Limitations
 
-Clean discussion content, normalize text, and prepare it for analysis.
+- Uses synthetic discussion data rather than a live Piazza integration.
+- Does not currently use a persistent database.
+- AI outputs may contain inaccuracies and should be reviewed.
+- Course report generation may take time on machines with limited resources.
+- Semantic similarity results require threshold tuning and evaluation.
+- AI analyses are not currently cached persistently.
 
-**3. Topic Classification**
+## Future Improvements
 
-Categorize discussions into topics such as:
+- PostgreSQL persistence
+- LLM response caching
+- Automated testing and evaluation
+- Docker-based setup
+- Improved search and filtering
+- Production deployment
 
-- Assignments
-- Exams
-- Lectures
-- Debugging
-- Course administration
+## Project Purpose
 
-**4. Summarization and Issue Detection**
+ThreadLens was developed as a full-stack software engineering and applied AI project to explore how large language models can transform unstructured educational discussions into useful, actionable insights.
 
-Generate concise summaries, identify recurring questions, and classify discussion status.
+It demonstrates REST API development, frontend engineering, data visualization, natural language processing, and local LLM integration.
 
-**5. Analytics Generation**
+## License
 
-Aggregate the results into metrics and visualizations for the dashboard.
-
-## 🗺️ Development Roadmap
-
-- [ ] Create and validate synthetic Piazza dataset
-- [ ] Implement FastAPI REST endpoints
-- [ ] Build React dashboard
-- [ ] Add discussion filtering and search
-- [ ] Implement AI-powered summarization
-- [ ] Implement topic classification
-- [ ] Add semantic similarity detection
-- [ ] Integrate PostgreSQL
-- [ ] Generate automated analytics reports
-- [ ] Add unit and integration tests
-- [ ] Deploy the application
-
-## 🔮 Future Improvements
-
-- Authorized Piazza API integration
-- Multi-course analytics
-- Semantic search with vector embeddings
-- Automatic duplicate question detection
-- Instructor feedback for AI-generated classifications
-- Real-time discussion monitoring where supported
-- Support for additional educational discussion platforms
-
-## 🔒 Privacy and Responsible AI
-
-ThreadLens is developed with student privacy in mind.
-
-- Synthetic data is used during initial development.
-- Real discussion data requires appropriate authorization.
-- Personally identifiable information should be protected.
-- AI-generated classifications and summaries may contain errors.
-- Sensitive student discussions should not be exposed publicly.
-
-## 🎓 Project Motivation
-
-ThreadLens is a portfolio project combining full-stack software engineering, natural language processing, and data analytics.
-
-The project focuses on practical engineering challenges, including:
-
-- REST API development
-- Data modeling and database design
-- AI integration
-- Semantic text analysis
-- Frontend development
-- Automated testing
-- Scalable application architecture
-
-## 📄 License
-
-A license has not yet been selected.
-
----
-
-**ThreadLens — Turning Discussions into Actionable Insights.**
+Add a license file if you choose to release the project under an open-source license.

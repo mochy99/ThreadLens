@@ -1,5 +1,8 @@
 
-source .venv/bin/activate
-cd backend
-
-python -m pip install ollama
+fastapi
+uvicorn[standard]
+ollama
+sentence-transformers
+numpy
+pytest
+httpx

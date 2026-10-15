@@ -4,6 +4,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.posts import router as posts_router
 from app.api.analytics import router as analytics_router
 from app.api.analyze import router as analyze_router
+from app.api import summarizer
+
+
 
 
 
@@ -24,6 +27,7 @@ app.add_middleware(
 app.include_router(posts_router)
 app.include_router(analytics_router)
 app.include_router(analyze_router)
+app.include_router(summarizer.router)
 
 
 @app.get("/")

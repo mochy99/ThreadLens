@@ -232,3 +232,27 @@ th {
   outline: 2px solid #6366f1;
   outline-offset: -2px;
 }
+
+.sidebar-button {
+  display: block;
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #cbd5e1;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sidebar-button:hover {
+  background: #1e293b;
+  color: white;
+}
+
+.sidebar-button.active {
+  background: #334155;
+  color: white;
+  font-weight: 600;
+}

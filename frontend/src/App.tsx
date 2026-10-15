@@ -27,6 +27,7 @@ import {
 
 import "./App.css";
 import IssueAnalyzer from "./components/IssueAnalyzer";
+import Summarizer from "./components/Summarizer";
 
 function App() {
   const [analytics, setAnalytics] =
@@ -38,6 +39,9 @@ function App() {
   const [posts, setPosts] = useState<Discussion[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [activePage, setActivePage] = useState<"dashboard" | "summarizer">(
+  "dashboard"
+);
 
   async function loadDashboard() {
     setLoading(true);
@@ -112,20 +116,46 @@ function App() {
   return (
     <div className="dashboard">
       <aside className="sidebar">
-        <h2>ThreadLens</h2>
-        <p>Discussion Intelligence</p>
+  <h2>ThreadLens</h2>
+  <p>Discussion Intelligence</p>
 
-        <nav>
-          <a className="active" href="#overview">
-            Overview
-          </a>
-          <a href="#topics">Topics</a>
-          <a href="#discussions">Discussions</a>
-        </nav>
-      </aside>
+  <nav>
+    <a
+      href="#overview"
+      className={activePage === "dashboard" ? "active" : ""}
+      onClick={() => setActivePage("dashboard")}
+    >
+      Overview
+    </a>
+
+    {activePage === "dashboard" && (
+      <>
+        <a href="#topics">Topics</a>
+        <a href="#discussions">Discussions</a>
+      </>
+    )}
+
+    <button
+      type="button"
+      className={`sidebar-button ${
+        activePage === "summarizer" ? "active" : ""
+      }`}
+      onClick={() => {
+        setSelectedPost(null);
+        setActivePage("summarizer");
+      }}
+    >
+      Summarizer
+    </button>
+  </nav>
+</aside>
 
       <main className="main">
-        <header className="header" id="overview">
+         {activePage === "summarizer" ? (
+            <Summarizer />
+        ) : (
+            <>
+      <header className="header" id="overview">
           <div>
             <h1>Discussion Overview</h1>
             <p>
@@ -140,6 +170,8 @@ function App() {
             <RefreshCw size={16} />
             Refresh
           </button>
+
+         
         </header>
 
         <section className="stats-grid">
@@ -250,6 +282,8 @@ function App() {
             />
           </div>
         </section>
+        </>
+        )}
       </main>
     </div>
   );
