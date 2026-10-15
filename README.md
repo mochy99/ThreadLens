@@ -38,12 +38,10 @@ ThreadLens/
 │   │   │   ├── posts.py
 │   │   │   ├── analytics.py
 │   │   │   ├── analyze.py
-│   │   │   ├── similarity.py
 │   │   │   └── summarizer.py
 │   │   ├── services/
 │   │   │   ├── analyzer.py
 │   │   │   ├── llm_analyzer.py
-│   │   │   ├── similarity.py
 │   │   │   └── summarizer.py
 │   │   └── main.py
 │   └── requirements.txt
@@ -86,7 +84,7 @@ Replace `YOUR_USERNAME` with your GitHub username.
 Create a Python virtual environment:
 
 ```bash
-python3.11 -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 
@@ -234,6 +232,3 @@ ThreadLens was developed as a full-stack software engineering and applied AI pro
 
 It demonstrates REST API development, frontend engineering, data visualization, natural language processing, and local LLM integration.
 
-## License
-
-Add a license file if you choose to release the project under an open-source license.
